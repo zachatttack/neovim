@@ -9,4 +9,6 @@ function! ToggleConceal()
     endif
 endfunction
 
-" nmap <Leader>c :call ToggleConceal()<CR>
+
+"replaced fzf with telescope
+source $HOME/.config/nvim/modules/fzf.vim

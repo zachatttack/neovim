@@ -4,7 +4,6 @@ nnoremap <Leader>v :e $MYVIMRC <bar> lcd ~/.dotfiles<cr>
 "Plugins
 source $HOME/.config/nvim/plugs/plugins.vim
 "Modules configuration
-source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/tmux-navigator.vim
 source $HOME/.config/nvim/modules/vimtex.vim
 source $HOME/.config/nvim/modules/cscope.vim
@@ -15,6 +14,7 @@ source $HOME/.config/nvim/modules/hotkeys.vim
 source $HOME/.config/nvim/modules/autocmd.vim
 source $HOME/.config/nvim/modules/fugative.vim
 source $HOME/.config/nvim/modules/gutentags.vim
+source $HOME/.config/nvim/modules/telescope.vim
 "Regular vim settings
 syntax on
 set mouse=a

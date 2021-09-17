@@ -2,9 +2,9 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 "Util
 Plug 'tpope/vim-commentary'
-Plug '/home/zach/.fzf/bin/fzf'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-bash' }
-Plug 'junegunn/fzf.vim'
+" Plug '/home/zach/.fzf/bin/fzf'
+" Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --no-bash' }
+" Plug 'junegunn/fzf.vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'sheerun/vim-polyglot'
 Plug 'majutsushi/tagbar'
@@ -43,6 +43,8 @@ Plug 'lervag/vimtex'
 Plug 'KeitaNakamura/tex-conceal.vim', {'for': 'tex'}
 Plug 'mhinz/vim-startify'
 Plug 'lilydjwg/colorizer'
+Plug 'nvim-lua/plenary.nvim' "required for telescope
+Plug 'nvim-telescope/telescope.nvim'
 call plug#end()
 
 source /home/zach/.config/nvim/plug-config/coc.vim
