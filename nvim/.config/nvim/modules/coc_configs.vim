@@ -34,4 +34,5 @@ let g:coc_global_extensions = [
             \'coc-json', 
             \'coc-explorer',
             \'coc-vimtex',
+            \'coc-pyright',
             \]

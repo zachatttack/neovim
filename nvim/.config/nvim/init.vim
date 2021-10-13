@@ -16,7 +16,7 @@ source $HOME/.config/nvim/modules/fugative.vim
 source $HOME/.config/nvim/modules/gutentags.vim
 source $HOME/.config/nvim/modules/telescope.vim
 "Regular vim settings
-syntax on
+syntax on "treesitter also used
 set mouse=a
 set number
 set relativenumber
@@ -36,14 +36,14 @@ set cino+=(0
 "Color stuff
 set t_Co=256
 set background=dark
-colorscheme bogster
+colorscheme zephyr
 
 hi Normal guibg=NONE ctermbg=NONE 
 hi Search ctermbg=grey
 highlight HighlightedyankRegion cterm=reverse gui=reverse
 
 let g:lightline = { 
-            \ 'colorscheme': 'bogster',
+            \ 'colorscheme': 'wombat',
             \ }
 
 let g:rg_binary="/home/zach/.cargo/bin/rg"
