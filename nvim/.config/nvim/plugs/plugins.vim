@@ -50,6 +50,7 @@ Plug 'lilydjwg/colorizer'
 Plug 'nvim-lua/plenary.nvim' "required for telescope
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
+Plug 'ThePrimeagen/harpoon'
 call plug#end()
 
 source /home/zach/.config/nvim/plug-config/coc.vim
