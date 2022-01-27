@@ -18,7 +18,7 @@ Plug 'coddingtonbear/neomake-platformio'
 Plug 'neovim/nvim-lspconfig'
 Plug 'prabirshrestha/vim-lsp'
 " Plug 'CoatiSoftware/vim-sourcetrail'
-" Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-unimpaired'
 Plug 'itchyny/lightline.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -39,6 +39,9 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 " Plug 'morhetz/gruvbox'
 " Plug 'dracula/vim'
 Plug 'glepnir/zephyr-nvim'
+Plug 'scrooloose/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
 
 
 

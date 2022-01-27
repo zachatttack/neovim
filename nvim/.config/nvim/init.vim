@@ -15,6 +15,7 @@ source $HOME/.config/nvim/modules/autocmd.vim
 source $HOME/.config/nvim/modules/fugative.vim
 source $HOME/.config/nvim/modules/gutentags.vim
 source $HOME/.config/nvim/modules/telescope.vim
+source $HOME/.config/nvim/modules/nerdtree.vim
 "Regular vim settings
 syntax on "treesitter also used
 set mouse=a
